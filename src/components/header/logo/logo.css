@@ -1,0 +1,16 @@
+.containerLogo{
+    display: flex;
+    position: absolute;
+    left: 180px;
+    top: 5px;
+    align-items: center;
+}
+
+.logoImg{
+    width: 80px;
+}
+
+.titleLogo{
+    color: white;
+    font-size: 22px;
+}
