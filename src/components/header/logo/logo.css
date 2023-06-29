@@ -1,23 +1,29 @@
-.containerLogo{
-    display: flex;
-    position: absolute;
-    left: 180px;
-    top: 5px;
-    align-items: center;
+.containerLogo {
+  display: flex;
+  position: absolute;
+  left: 180px;
+  top: 5px;
+  align-items: center;
 }
 
-.logoImg{
-    width: 80px;
+.logoImg {
+  width: 80px;
 }
 
-.titleLogo{
-    color: white;
-    font-size: 22px;
+.titleLogo {
+  color: white;
+  font-size: 22px;
 }
 
-@media (max-width: 420px){
-    .containerLogo{
-        position: static;
-        padding-right: 20px;
-    }
+@media (max-width: 320px) {
+  .titleLogo {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .containerLogo {
+    position: static;
+    padding-right: 20px;
+  }
 }

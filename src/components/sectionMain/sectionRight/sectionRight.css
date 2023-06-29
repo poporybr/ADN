@@ -20,6 +20,7 @@
 
 @media (max-width: 420px){
     .containerRight{
+        height: 0vh;
         display: none;
         align-items: center;
         justify-content: center;

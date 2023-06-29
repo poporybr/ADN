@@ -1,93 +1,113 @@
-.containerLeft{
-    color: white;
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.containerLeft {
+  color: white;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @font-face {
-    font-family: 'neuaMachine';
-    src: url('../../../fonts/NeueMachina-Ultrabold.otf');
+  font-family: "neuaMachine";
+  src: url("../../../fonts/NeueMachina-Ultrabold.otf");
 }
 
-pre, .titleLeft, .paragLeft{
-    margin: 0;
+pre,
+.titleLeft,
+.paragLeft {
+  margin: 0;
 }
 
-.titleLeft{
-    font-family: 'neuaMachine', sans-serif;
-    font-size: 46px;
-    padding-bottom: 10px;
+.titleLeft {
+  font-family: "neuaMachine", sans-serif;
+  font-size: 46px;
+  padding-bottom: 10px;
 }
 
-.paragLeft{
-    font-family: 'public-sans', sans-serif;
-    padding: 10px 0 10px 0;
-    font-size: 18px;
+.paragLeft {
+  font-family: "public-sans", sans-serif;
+  padding: 10px 0 10px 0;
+  font-size: 18px;
 }
 
-.adnBold{
-    color: #FFF2C1 ;
-    font-weight: bold;
+.adnBold {
+  color: #fff2c1;
+  font-weight: bold;
 }
 
-.containerBtns{
-    padding: 10px 0 0 25px;
+.containerBtns {
+  padding: 10px 0 0 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.btnLeft {
+  margin-top: 20px;
+  width: 180px;
+  height: 44px;
+  font-size: 16px;
+  border: white 2px solid;
+  border-radius: 100px;
+  background-color: #050810;
+  color: white;
+  transition: 0.1s ease-out;
+}
+
+.btnLeft:hover {
+  color: #050810;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 420px) {
+  .containerLeft {
+    height: 50vh;
+  }
+
+  .containerLeft2 {
     display: flex;
-    gap: 10px;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titleLeft {
+    font-size: 36px;
+    padding: 0 0 20px 0;
+  }
+
+  .paragLeft {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 20px 0 0 0;
+  }
+
+  .btnLeft {
+    position: absolute;
+    bottom: 100px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+  }
 }
 
-.btnLeft{
-    margin-top: 20px;
-    width: 180px;
-    height: 44px;
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+  .titleLeft2 {
+    font-size: 30px;
+    padding: 0 0 20px 0;
+  }
+
+  .paragLeft {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 16px;
-    border: white 2px solid;
-    border-radius: 100px;
-    background-color: #050810;
-    color: white;
-    transition: 0.1s ease-out;
-}
-
-.btnLeft:hover{
-    color: #050810;
-    background-color: white;
-    cursor: pointer;
-}
-
-@media (max-width: 420px){
-    .containerLeft{
-        height: 50vh;
-    }
-
-    .containerLeft2{
-        display: flex;
-        flex-wrap: wrap;
-        width: auto;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .titleLeft{
-        font-size: 36px;
-        padding: 0 0 20px 0;
-    }
-
-    .paragLeft{
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 20px;
-        padding: 20px 0 0 0 ;
-    }
-
-    .btnLeft{
-        position: absolute;
-        bottom: 100px;
-        width: 200px;
-        height: 60px;
-        font-size: 20px;
-    }
+    padding: 20px 0 0 0;
+  }
 }
