@@ -58,3 +58,36 @@ pre, .titleLeft, .paragLeft{
     cursor: pointer;
 }
 
+@media (max-width: 420px){
+    .containerLeft{
+        height: 50vh;
+    }
+
+    .containerLeft2{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titleLeft{
+        font-size: 36px;
+        padding: 0 0 20px 0;
+    }
+
+    .paragLeft{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+        padding: 20px 0 0 0 ;
+    }
+
+    .btnLeft{
+        position: absolute;
+        bottom: 100px;
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+    }
+}

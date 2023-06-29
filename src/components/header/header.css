@@ -4,3 +4,13 @@
     justify-content: center;
     position: fixed;
 }
+
+@media (max-width: 420px){
+    .containerHeader{
+        position: static;
+        height: 20vh;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

@@ -18,3 +18,20 @@
     padding-bottom: 0px;
 }
 
+@media (max-width: 420px){
+    .containerRight{
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titleRight{
+        font-size: 20px;
+    }
+
+    .logoADN{
+        display: none;
+    }
+}
+

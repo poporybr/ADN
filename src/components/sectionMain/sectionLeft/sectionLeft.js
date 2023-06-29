@@ -4,7 +4,7 @@ import "./sectionLeft.css";
 export function Left() {
   return (
     <div className="containerLeft">
-      <div>
+      <div className="containerLeft2">
         <pre>
           <h1 className="titleLeft">
             Alavanque seu{"\n"}negócio além do{"\n"}físico, conquiste o{"\n"}
