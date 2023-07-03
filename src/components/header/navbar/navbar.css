@@ -6,34 +6,32 @@
 }
 
 .linkNavbar {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
   color: white;
   text-decoration: none;
 }
 
-.containerNavbar p {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.containerNavbar p::before {
+.linkNavbar::before {
   content: "";
   position: absolute;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   width: 0;
   height: 2px;
   background-color: white;
-  transition: width 0.2s;
-  transform-origin: left;
+  transition: width 0.3s ease-in-out;
 }
 
-.containerNavbar p:hover::before {
+.linkNavbar:hover::before {
   width: 100%;
 }
 
+
 @media (max-width: 320px){
-  .containerNavbar p {
+  .linkNavbar {
     font-size: 12px;
   }
 }

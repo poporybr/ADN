@@ -1,14 +1,22 @@
 import './App.css'
-import { Header } from './components/header/header';
-import { SectionMain } from './components/sectionMain/sectionMain';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home } from './pages/home/index.js';
+import { About } from './pages/about/index.js';
+import { Products } from './pages/products';
+import { Contact } from './pages/contact';
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <SectionMain/>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path='/' Component={Home}/>
+        <Route path='/products' Component={Products}/>
+        <Route path='/about' Component={About}/>
+        <Route path='/contact' Component={Contact}/>
+      </Routes>
+    </Router>
   );
 }
 
