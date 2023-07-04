@@ -6,7 +6,7 @@ export function Left() {
     <div className="containerLeft">
       <div className="containerLeft2">
         <pre>
-          <h1 className="titleLeft titleLeft2">
+          <h1 className="titleLeft">
             Alavanque seu{"\n"}negócio além do{"\n"}físico, conquiste o{"\n"}
             mundo digital
           </h1>

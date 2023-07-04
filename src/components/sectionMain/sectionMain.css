@@ -1,10 +1,19 @@
 .containerMain{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 420px){
     .containerMain{
+        display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+    }
+}
+
+@media (max-width: 320px){
+    .containerMain{
+        display: flex;
+        flex-wrap: wrap;
     }
 }

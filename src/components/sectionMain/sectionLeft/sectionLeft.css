@@ -1,6 +1,6 @@
 .containerLeft {
   color: white;
-  width: 50vw;
+  width: 30vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -99,15 +99,19 @@ pre,
 }
 
 @media (max-width: 320px) {
-  .titleLeft2 {
-    font-size: 30px;
-    padding: 0 0 20px 0;
+  .titleLeft{
+    font-size: 29px;
   }
-
-  .paragLeft {
+  pre{
     display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .paragLeft{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-size: 16px;
-    padding: 20px 0 0 0;
+    padding: 0;
   }
 }

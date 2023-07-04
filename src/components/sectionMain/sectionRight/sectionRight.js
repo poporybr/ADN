@@ -1,13 +1,12 @@
 import React from "react";
 import "./sectionRight.css";
-import imgLogo from "../../../assets/logo.png";
+import imgFoguete from "../../../assets/foguete.png";
 
 
 export function Right() {
   return (
     <div className="containerRight">
-        <img src={imgLogo} alt="LogoADN" className="logoADN" />
-        <h1 className="titleRight">NÓS SOMOS A ALMA DO NEGÓCIO</h1>
+        <img src={imgFoguete} alt="foguete" className="fogueteADN" />
     </div>
   );
 }

@@ -1,8 +1,5 @@
 .containerLogo {
   display: flex;
-  position: absolute;
-  left: 180px;
-  top: 5px;
   align-items: center;
 }
 
