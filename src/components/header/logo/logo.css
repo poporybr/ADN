@@ -12,15 +12,20 @@
   font-size: 22px;
 }
 
-@media (max-width: 320px) {
-  .titleLogo {
-    font-size: 12px;
+@media(max-width: 425px){
+  .containerLogo{
+    flex-direction: column;
   }
 }
 
-@media (max-width: 420px) {
-  .containerLogo {
-    position: static;
-    padding-right: 20px;
+@media(max-width: 375px){
+  .containerLogo{
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 320px){
+  .containerLogo{
+    flex-direction: column;
   }
 }

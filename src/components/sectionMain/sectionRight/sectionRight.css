@@ -1,5 +1,5 @@
 .containerRight {
-  height: 100vh;
+  height: 80vh;
   width: 30vw;
   display: flex;
   justify-content: center;
@@ -30,16 +30,58 @@
   color: white;
   padding-bottom: 0px;
 }
+@media(max-width: 1024px){
 
-@media (max-width: 420px) {
-  .containerRight {
-    height: 0vh;
-    align-items: center;
+}
+
+@media(max-width: 768px){
+  .containerRight{
     justify-content: center;
+    align-items: center;
   }
-
-  .titleRight {
-    font-size: 20px;
+  .fogueteADN{
+    position: static;
+    width: 200px;
+    height: 200px;
+    animation: none;
   }
 }
 
+@media(max-width: 425px){
+  .containerRight{
+    height: 20vh;
+  }
+  .fogueteADN{
+    margin-top: 60px;
+    position: static;
+    width: 160px;
+    height: 160px;
+    animation: none;
+  }
+}
+
+@media(max-width: 375px){
+  .containerRight{
+    height: 20vh;
+  }
+  .fogueteADN{
+    margin-top: 60px;
+    position: static;
+    width: 160px;
+    height: 160px;
+    animation: none;
+  }
+}
+
+@media(max-width: 320px){
+  .containerRight{
+    height: 20vh;
+  }
+  .fogueteADN{
+    margin-top: 60px;
+    position: static;
+    width: 160px;
+    height: 160px;
+    animation: none;
+  }
+}

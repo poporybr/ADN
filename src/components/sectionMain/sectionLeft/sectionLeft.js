@@ -4,7 +4,6 @@ import "./sectionLeft.css";
 export function Left() {
   return (
     <div className="containerLeft">
-      <div className="containerLeft2">
         <pre>
           <h1 className="titleLeft">
             Alavanque seu{"\n"}negócio além do{"\n"}físico, conquiste o{"\n"}
@@ -19,7 +18,6 @@ export function Left() {
           </p>
         </pre>
           <button className="btnLeft">Começar</button>
-      </div>
     </div>
   );
 }

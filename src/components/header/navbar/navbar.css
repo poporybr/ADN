@@ -6,7 +6,7 @@
 }
 
 .linkNavbar {
-  font-size: 17px;
+  font-size: 25px;
   position: relative;
   display: inline-block;
   padding-bottom: 4px;
@@ -29,9 +29,30 @@
   width: 100%;
 }
 
+@media(max-width: 768px){
+  .linkNavbar{
+    font-size: 22px;
+    padding: 0;
+  }
+}
 
-@media (max-width: 320px){
-  .linkNavbar {
+@media(max-width: 425px){
+  .linkNavbar{
+    font-size: 18px;
+    padding: 0;
+  }
+}
+
+@media(max-width: 375px){
+  .linkNavbar{
+    font-size: 15px;
+    padding: 0;
+  }
+}
+
+@media(max-width: 320px){
+  .linkNavbar{
     font-size: 12px;
+    padding: 0;
   }
 }
