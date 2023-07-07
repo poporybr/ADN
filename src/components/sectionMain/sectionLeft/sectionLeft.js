@@ -1,5 +1,6 @@
 import React from "react";
 import "./sectionLeft.css";
+import { Link } from "react-router-dom";
 
 export function Left() {
   return (
@@ -17,7 +18,7 @@ export function Left() {
             {"\n"}digital e alcançar o topo do mercado virtual!
           </p>
         </pre>
-          <button className="btnLeft">Começar</button>
+        <Link to="/start"><button className="btnLeft">COMEÇAR</button></Link>
     </div>
   );
 }
